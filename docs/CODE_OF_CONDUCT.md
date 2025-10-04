@@ -44,7 +44,7 @@ an individual is officially representing the community in public spaces.
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the project maintainers responsible for enforcement at
-[conduct@example.com](mailto:conduct@example.com).
+[nitin.satyan@gmail.com](mailto:nitin.satyan@gmail.com).
 All complaints will be reviewed and investigated promptly and fairly.
 
 ## Enforcement Guidelines

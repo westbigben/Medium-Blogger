@@ -5,7 +5,7 @@
 The security of our Medium Article Automation system is a top priority. If you discover a security vulnerability, please follow these steps:
 
 1. **Do NOT** create a public GitHub issue
-2. Send a confidential email to [security@example.com](mailto:security@example.com)
+2. Send a confidential email to [nitin.satyan@gmail.com](mailto:nitin.satyan@gmail.com)
 3. Include detailed information about the vulnerability
 4. Allow up to 48 hours for initial response
 
@@ -98,6 +98,6 @@ We provide security updates for:
 ## Contact
 
 For security concerns:
-- Email: security@example.com
+- Email: nitin.satyan@gmail.com
 - PGP Key: [Download](https://example.com/pgp-key.asc)
 - Response time: 24-48 hours

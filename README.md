@@ -65,7 +65,7 @@ medium-automation/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/medium-automation.git
+   git clone https://github.com/westbigben/medium-automation.git
    cd medium-automation
    ```
 
@@ -148,5 +148,4 @@ This project is licensed under the GNU Affero General Public License v3.0 with a
 
 ## Author
 
-
-Nitin Bharadwaj (@westbigben)
+Nitin S Bharadwaj (@westbigben)

@@ -43,4 +43,4 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Monitoring setup
 - Secure configuration handling
 
-[0.1.0]: https://github.com/yourusername/medium-automation/releases/tag/v0.1.0
+[0.1.0]: https://github.com/westbigben/medium-automation/releases/tag/v0.1.0
