@@ -1,0 +1,65 @@
+# Example configuration file
+
+api:
+  medium:
+    base_url: https://api.medium.com/v1
+    token: ${MEDIUM_API_TOKEN}  # From .env
+  perplexity:
+    base_url: https://api.perplexity.ai
+    token: ${PERPLEXITY_API_KEY}  # From .env
+
+scraper:
+  sources:
+    - medium
+    - dev.to
+    - hashnode
+  max_articles: 10
+  rate_limit: 60  # requests per minute
+  retry_attempts: 3
+
+filter:
+  min_relevance_score: 0.7
+  min_word_count: 500
+  keywords:
+    - technology
+    - programming
+    - ai
+    - machine learning
+  exclude_domains:
+    - spam-site.com
+  max_duplicates: 0.8  # similarity threshold
+
+research:
+  depth: medium  # shallow, medium, deep
+  max_sources: 5
+  validate_sources: true
+  citation_format: APA
+
+writer:
+  style: professional
+  tone: neutral
+  min_words: 1000
+  max_words: 3000
+  include:
+    - introduction
+    - key_points
+    - examples
+    - conclusion
+  seo_optimization: true
+
+publisher:
+  status: draft  # draft or public
+  tags:
+    - technology
+    - programming
+  canonical_url: true
+  schedule_time: null  # or "YYYY-MM-DD HH:MM"
+  notify_followers: true
+
+monitoring:
+  log_level: INFO
+  metrics_enabled: true
+  alert_on_error: true
+  prometheus:
+    enabled: false
+    port: 9090
