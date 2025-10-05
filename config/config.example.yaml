@@ -1,9 +1,10 @@
 # Example configuration file
 
 api:
-  medium:
-    base_url: https://api.medium.com/v1
-    token: ${MEDIUM_API_TOKEN}  # From .env
+  devto:
+    base_url: https://dev.to/api
+    api_key: ${DEVTO_API_KEY}  # From .env
+    user_id: ${DEVTO_USER_ID}  # From .env
   perplexity:
     base_url: https://api.perplexity.ai
     token: ${PERPLEXITY_API_KEY}  # From .env

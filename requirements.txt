@@ -7,7 +7,7 @@ python-dotenv>=1.0.0
 redis>=5.0.1
 asyncio>=3.4.3
 perplexity>=0.3.1
-medium-api>=0.5.0
+# No specific Dev.to package needed - using standard HTTP client
 selenium>=4.16.0
 playwright>=1.40.0
 

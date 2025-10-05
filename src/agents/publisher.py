@@ -1,5 +1,5 @@
 """
-Publisher agent for posting content to Medium.
+Publisher agent for posting content to Dev.to.
 """
 
 import asyncio
@@ -9,7 +9,7 @@ from pathlib import Path
 from src.agents.base import BaseAgent
 
 class PublisherAgent(BaseAgent):
-    """Agent for publishing articles to Medium."""
+    """Agent for publishing articles to Dev.to."""
 
     def __init__(self, config: Dict[str, Any], data_dir: Path = None):
         """Initialize publisher agent.
@@ -21,9 +21,11 @@ class PublisherAgent(BaseAgent):
         super().__init__(config, data_dir)
         self.status = config.get('status', 'draft')
         self.tags = config.get('tags', [])
+        self.api_key = config.get('api_key')
+        self.max_tags = config.get('max_tags', 4)
 
-    async def publish_to_medium(self, article: Dict[str, Any]) -> Dict[str, Any]:
-        """Publish article to Medium.
+    async def publish_to_devto(self, article: Dict[str, Any]) -> Dict[str, Any]:
+        """Publish article to Dev.to.
         
         Args:
             article: Article data to publish

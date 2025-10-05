@@ -7,14 +7,14 @@ Setup script for Medium Automation project.
 from setuptools import setup, find_packages
 
 setup(
-    name="medium-automation",
+    name="devto-automation",
     version="0.1.0",
-    description="Automated Medium article creation and publishing system",
+    description="Automated Dev.to article creation and publishing system",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
     author="Nitin S Bharadwaj",
     author_email="nitin.satyan@gmail.com",
-    url="https://github.com/westbigben/medium-automation",
+    url="https://github.com/westbigben/devto-automation",
     packages=find_packages(),
     install_requires=[
         "requests>=2.31.0",

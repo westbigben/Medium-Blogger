@@ -1,5 +1,5 @@
 """
-Main orchestrator for the Medium Automation Pipeline.
+Main orchestrator for the Dev.to Automation Pipeline.
 """
 
 import asyncio

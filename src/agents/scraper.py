@@ -24,8 +24,8 @@ class ScraperAgent(BaseAgent):
         self.max_articles = config.get('max_articles', 10)
         self.retry_attempts = config.get('retry_attempts', 3)
 
-    async def scrape_medium(self) -> List[Dict[str, Any]]:
-        """Scrape articles from Medium.
+    async def scrape_devto(self) -> List[Dict[str, Any]]:
+        """Scrape articles from Dev.to.
         
         Returns:
             List of article data dictionaries

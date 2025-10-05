@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-The security of our Medium Article Automation system is a top priority. If you discover a security vulnerability, please follow these steps:
+The security of our Dev.to Article Automation system is a top priority. If you discover a security vulnerability, please follow these steps:
 
 1. **Do NOT** create a public GitHub issue
 2. Send a confidential email to [nitin.satyan@gmail.com](mailto:nitin.satyan@gmail.com)
@@ -17,9 +17,9 @@ All API interactions are rate-limited to prevent abuse:
 
 ```yaml
 rate_limiting:
-  medium:
-    calls: 4      # requests
-    period: 60    # seconds
+  devto:
+    calls: 30     # requests
+    period: 30    # seconds
   linkedin:
     calls: 100    # requests
     period: 3600  # seconds

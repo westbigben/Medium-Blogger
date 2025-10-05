@@ -1,6 +1,6 @@
-# Medium Article Automation Pipeline
+# Dev.to Article Automation Pipeline
 
-An intelligent pipeline using specialized agents to automate Medium article creation.
+An intelligent pipeline using specialized agents to automate Dev.to article creation.
 
 ## Features
 
@@ -8,7 +8,7 @@ An intelligent pipeline using specialized agents to automate Medium article crea
 - **Content Filter Agent**: Analyzes and filters content for relevance
 - **Research Agent**: Conducts in-depth research using Perplexity API
 - **Article Writer Agent**: Creates well-structured article drafts
-- **Medium Publisher Agent**: Posts drafts to Medium platform
+- **Dev.to Publisher Agent**: Posts drafts to Dev.to platform
 
 ## Project Structure
 

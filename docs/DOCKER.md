@@ -16,7 +16,7 @@ This project supports Docker containerization for consistent development and dep
 
 2. Run the tests:
    ```bash
-   docker-compose run medium-automation pytest -v --cov=src tests/
+   docker-compose run devto-automation pytest -v --cov=src tests/
    ```
 
 3. Start the application:

@@ -15,7 +15,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
   - Content filtering agent
   - Research agent
   - Article writing agent
-  - Medium publishing agent
+  - Dev.to publishing agent
 - Utility modules
   - Configuration management
   - Monitoring and logging

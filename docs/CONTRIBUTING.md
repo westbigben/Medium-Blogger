@@ -1,6 +1,6 @@
-# Contributing to Medium Automation Pipeline
+# Contributing to Dev.to Automation Pipeline
 
-Thank you for considering contributing to this project! This document outlines the guidelines for contributing to the Medium Automation Pipeline.
+Thank you for considering contributing to this project! This document outlines the guidelines for contributing to the Dev.to Automation Pipeline.
 
 ## Code of Conduct
 
