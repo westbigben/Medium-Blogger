@@ -56,7 +56,7 @@ medium-automation/
 - Python 3.10+
 - Dependencies listed in `requirements.txt`
 - API keys for:
-  - Medium API
+  - Dev.to API
   - OpenAI GPT-4
   - Perplexity API
   - LinkedIn API (optional)
@@ -147,5 +147,6 @@ This project is licensed under the GNU Affero General Public License v3.0 with a
 - Check documentation for common issues
 
 ## Author
+
 
 Nitin S Bharadwaj (@westbigben)
