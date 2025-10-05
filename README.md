@@ -13,7 +13,7 @@ An intelligent pipeline using specialized agents to automate Dev.to article crea
 ## Project Structure
 
 ```
-medium-automation/
+devto-automation/
 ├── src/
 │   ├── agents/
 │   │   ├── __init__.py
@@ -21,7 +21,7 @@ medium-automation/
 │   │   ├── filter.py       # Content filtering agent
 │   │   ├── research.py     # Research agent
 │   │   ├── writer.py       # Article writing agent
-│   │   └── publisher.py    # Medium publishing agent
+│   │   └── publisher.py    # Dev.to publishing agent
 │   ├── utils/
 │   │   ├── __init__.py
 │   │   ├── config.py       # Configuration utilities
@@ -65,8 +65,8 @@ medium-automation/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/westbigben/medium-automation.git
-   cd medium-automation
+   git clone https://github.com/westbigben/devto-automation.git
+   cd devto-automation
    ```
 
 2. Create a virtual environment:
@@ -93,7 +93,8 @@ medium-automation/
 
 1. Set up API keys in `.env`:
    ```ini
-   MEDIUM_API_TOKEN=your_medium_api_token
+   DEVTO_API_KEY=your_devto_api_key
+   DEVTO_USER_ID=your_devto_user_id
    OPENAI_API_KEY=your_openai_api_key
    PERPLEXITY_API_KEY=your_perplexity_api_key
    LINKEDIN_API_KEY=your_linkedin_api_key
@@ -147,6 +148,5 @@ This project is licensed under the GNU Affero General Public License v3.0 with a
 - Check documentation for common issues
 
 ## Author
-
 
 Nitin S Bharadwaj (@westbigben)

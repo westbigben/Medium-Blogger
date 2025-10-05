@@ -30,7 +30,8 @@ This project supports Docker containerization for consistent development and dep
 
 Create a `.env` file in the root directory:
 ```ini
-MEDIUM_API_TOKEN=your_medium_api_token
+DEVTO_API_KEY=your_devto_api_key
+DEVTO_USER_ID=your_devto_user_id
 OPENAI_API_KEY=your_openai_api_key
 PERPLEXITY_API_KEY=your_perplexity_api_key
 REDIS_URL=redis://redis:6379/0
@@ -50,7 +51,7 @@ REDIS_URL=redis://redis:6379/0
 
 ## Services
 
-### 1. medium-automation
+### 1. devto-automation
 
 Main application service:
 - Python 3.11
